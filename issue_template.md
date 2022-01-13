@@ -1,13 +1,13 @@
-<!-- Thank you for using pda_scanner!
+<!-- Thank you for using flutter_pda_scanner!
 
      If you are looking for support, please check out our documentation first.
 
      If you have found a bug or if our documentation doesn't have an answer
      to what you're looking for, then fill our the template below.
 
-     欢迎使用pda_scanner! 为了节省大家review时间，如果您有问题，请先:
+     欢迎使用flutter_pda_scanner! 为了节省大家review时间，如果您有问题，请先:
 
-     1.确保pda_scanner为最新版本。
+     1.确保flutter_pda_scanner为最新版本。
      2.仔细阅读文档。
 
      如果还有问题，请按照下面模板提issue，提交前请将注释部分删除，未按模板提交的issue将直接被关闭。

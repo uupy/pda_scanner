@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pda_scanner/pda_lifecycle_mixin.dart';
+import 'package:flutter_pda_scanner/pda_lifecycle_mixin.dart';
 
 import 'page_alpha.dart';
 

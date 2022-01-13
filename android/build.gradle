@@ -1,4 +1,4 @@
-group 'com.shinow.pda_scanner'
+group 'com.uupy.flutter_pda_scanner'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -8,7 +8,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.android.tools.build:gradle:4.1.0'
     }
 }
 

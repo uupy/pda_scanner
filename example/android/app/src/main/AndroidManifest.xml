@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.shinow.pda_scanner_example">
+    package="com.uupy.flutter_pda_scanner_example">
 
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -8,7 +8,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="pda_scanner_example"
+        android:label="flutter_pda_scanner_example"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

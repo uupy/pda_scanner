@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:pda_scanner/pda_source.dart';
+import 'package:flutter_pda_scanner/pda_source.dart';
 
 /// Auto manage the lifecycle of Pda plugin(PdaSource).
 /// Mixin to the state of the root widget.

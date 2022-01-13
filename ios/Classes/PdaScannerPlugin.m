@@ -3,7 +3,7 @@
 @implementation PdaScannerPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
-      methodChannelWithName:@"pda_scanner"
+      methodChannelWithName:@"flutter_pda_scanner"
             binaryMessenger:[registrar messenger]];
   PdaScannerPlugin* instance = [[PdaScannerPlugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];

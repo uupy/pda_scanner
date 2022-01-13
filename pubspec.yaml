@@ -1,12 +1,12 @@
-name: pda_scanner
+name: flutter_pda_scanner
 description: This is a scanning plug-in for PDA to listen the scanned events and get scanning results.
-version: 0.2.9
-author: leyan95 <leyansorosame@gmail.com>
-homepage: https://github.com/leyan95/pda_scanner
+version: 1.0.0
+authors: uu <364191418@qq.com>
+homepage: https://github.com/uupy/pda_scanner
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
-  flutter: ">=1.12.13+hotfix.5 <2.0.0"
+  sdk: ">=2.15.1 <3.0.0"
+  flutter: ">=2.5.0"
 
 dependencies:
   flutter:
@@ -16,5 +16,5 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.shinow.pda_scanner
+        package: com.uupy.flutter_pda_scanner
         pluginClass: PdaScannerPlugin
