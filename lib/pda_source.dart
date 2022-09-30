@@ -13,7 +13,8 @@ class PdaSource {
   /// You need to initialize it as necessary, when the program starts for the first time.
   static void init() {
     _scannerPlugin ??= const EventChannel(channelName);
-    _subscription = _scannerPlugin!.receiveBroadcastStream()
+    _subscription = _scannerPlugin!
+        .receiveBroadcastStream()
         .listen(_onEvent, onError: _onError);
   }
 

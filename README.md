@@ -15,7 +15,7 @@ Add this to your package's pubspec.yaml file:
 
 ```
 dependencies:
- flutter_pda_scanner: ^0.2.9
+ flutter_pda_scanner: ^1.0.1
 ```
 
 ## Supported

@@ -13,7 +13,7 @@ import io.flutter.plugin.common.PluginRegistry;
 public class PdaScannerPlugin implements EventChannel.StreamHandler {
     private static final String CHANNEL = "com.uupy.flutter_pda_scanner/plugin";
     private static final String XM_SCAN_ACTION = "com.android.server.scannerservice.broadcast";
-    private static final String SHINIOW_SCAN_ACTION = "com.android.server.scannerservice.uupy";
+    private static final String SHINIOW_SCAN_ACTION = "com.android.server.scannerservice.shinow";
     private static final String IDATA_SCAN_ACTION = "android.intent.action.SCANRESULT";
     private static final String YBX_SCAN_ACTION = "android.intent.ACTION_DECODE_DATA";
     private static final String PL_SCAN_ACTION = "scan.rcv.message";
