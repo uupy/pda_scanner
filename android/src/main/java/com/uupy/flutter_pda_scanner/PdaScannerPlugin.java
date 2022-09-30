@@ -51,10 +51,10 @@ public class PdaScannerPlugin implements EventChannel.StreamHandler {
         xmIntentFilter.setPriority(Integer.MAX_VALUE);
         activity.registerReceiver(scanReceiver, xmIntentFilter);
 
-        IntentFilter uupyIntentFilter = new IntentFilter();
-        uupyIntentFilter.addAction(SHINIOW_SCAN_ACTION);
-        uupyIntentFilter.setPriority(Integer.MAX_VALUE);
-        activity.registerReceiver(scanReceiver, uupyIntentFilter);
+        IntentFilter shinowIntentFilter = new IntentFilter();
+        shinowIntentFilter.addAction(SHINIOW_SCAN_ACTION);
+        shinowIntentFilter.setPriority(Integer.MAX_VALUE);
+        activity.registerReceiver(scanReceiver, shinowIntentFilter);
 
         IntentFilter iDataIntentFilter = new IntentFilter();
         iDataIntentFilter.addAction(IDATA_SCAN_ACTION);

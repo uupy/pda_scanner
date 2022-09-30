@@ -27,3 +27,5 @@
 ## [1.0.0] - 2022/01/13
 - Null safety
 - todo (try to migrate this app to the V2 embedding)
+## [1.0.1] - 2022/09/30
+- fix：SHINIOW包名
