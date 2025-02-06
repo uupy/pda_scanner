@@ -1,9 +1,9 @@
-# pda_scanner_example
+# flutter_pda_scanner_example
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:pda_scanner/pda_source.dart';
-import 'package:pda_scanner/pda_listener.dart';
+import 'package:flutter_pda_scanner/pda_source.dart';
+import 'package:flutter_pda_scanner/pda_listener.dart';
 
 class MyApp extends StatefulWidget {
   @override

@@ -1,4 +1,4 @@
-package com.shinow.pda_scanner_example;
+package com.uupy.flutter_pda_scanner_example;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

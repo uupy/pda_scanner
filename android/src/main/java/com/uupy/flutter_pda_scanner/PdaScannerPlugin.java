@@ -1,4 +1,4 @@
-package com.shinow.pda_scanner;
+package com.uupy.flutter_pda_scanner;
 
 import android.content.IntentFilter;
 import android.app.Activity;
@@ -11,7 +11,7 @@ import io.flutter.plugin.common.EventChannel;
 import io.flutter.plugin.common.PluginRegistry;
 
 public class PdaScannerPlugin implements EventChannel.StreamHandler {
-    private static final String CHANNEL = "com.shinow.pda_scanner/plugin";
+    private static final String CHANNEL = "com.uupy.flutter_pda_scanner/plugin";
     private static final String XM_SCAN_ACTION = "com.android.server.scannerservice.broadcast";
     private static final String SHINIOW_SCAN_ACTION = "com.android.server.scannerservice.shinow";
     private static final String IDATA_SCAN_ACTION = "android.intent.action.SCANRESULT";

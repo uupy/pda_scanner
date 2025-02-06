@@ -24,3 +24,8 @@
 ## [0.2.7] - 2020/07/14
 ## [0.2.9] - 2020/07/14
 - 可手动初始化、销毁PDA生命周期及监听
+## [1.0.0] - 2022/01/13
+- Null safety
+- todo (try to migrate this app to the V2 embedding)
+## [1.0.1] - 2022/09/30
+- fix：SHINIOW包名
