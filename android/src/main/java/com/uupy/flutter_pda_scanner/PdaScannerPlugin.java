@@ -19,7 +19,7 @@ public class PdaScannerPlugin implements EventChannel.StreamHandler {
     private static final String PL_SCAN_ACTION = "scan.rcv.message";
     private static final String BARCODE_DATA_ACTION = "com.ehsy.warehouse.action.BARCODE_DATA";
     private static final String HONEYWELL_SCAN_ACTION = "com.honeywell.decode.intent.action.EDIT_DATA";
-    private static final String HIK_SCAN_ACTION = "android.intent.ACTION_SCAN_OUTPUT";
+    // private static final String HIK_SCAN_ACTION = "android.intent.ACTION_SCAN_OUTPUT";
 
     private static EventChannel.EventSink eventSink;
 
@@ -40,11 +40,12 @@ public class PdaScannerPlugin implements EventChannel.StreamHandler {
                 eventSink.success(result);
             } else if (HONEYWELL_SCAN_ACTION.equals(actionName) || BARCODE_DATA_ACTION.equals(actionName)) {
                 eventSink.success(intent.getStringExtra("data"));
-            } else if (HIK_SCAN_ACTION.equals(actionName)) {
-                eventSink.success(intent.getStringExtra("barcode"));
             } else {
                 Log.i("PdaScannerPlugin", "NoSuchAction");
             }
+            // else if (HIK_SCAN_ACTION.equals(actionName)) {
+            //     eventSink.success(intent.getStringExtra("barcode"));
+            // } 
         }
     };
 
@@ -84,10 +85,10 @@ public class PdaScannerPlugin implements EventChannel.StreamHandler {
         honeywellIntentFilter.setPriority(Integer.MAX_VALUE);
         activity.registerReceiver(scanReceiver, honeywellIntentFilter);
 
-        IntentFilter hikIntentFilter = new IntentFilter();
-        hikIntentFilter.addAction(HIK_SCAN_ACTION);
-        hikIntentFilter.setPriority(Integer.MAX_VALUE);
-        activity.registerReceiver(scanReceiver, hikIntentFilter);
+        // IntentFilter hikIntentFilter = new IntentFilter();
+        // hikIntentFilter.addAction(HIK_SCAN_ACTION);
+        // hikIntentFilter.setPriority(Integer.MAX_VALUE);
+        // activity.registerReceiver(scanReceiver, hikIntentFilter);
     }
 
     public static void registerWith(PluginRegistry.Registrar registrar) {
